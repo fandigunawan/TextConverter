@@ -43,36 +43,27 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/upper">
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="5"
-            >
+            android:layout_weight="5">
             <EditText
                 android:id="@+id/etInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
-                android:ems="10"
-                />
-
-
-
+                android:ems="10"/>
         </ScrollView>
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="5"
-            >
+            android:layout_weight="5">
             <TextView
                 android:id="@+id/tvOutput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-                />
+                android:textStyle="bold"
+                android:textIsSelectable="true"/>
         </ScrollView>
     </LinearLayout>
-
 </RelativeLayout>

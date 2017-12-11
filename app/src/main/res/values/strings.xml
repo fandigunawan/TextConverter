@@ -5,5 +5,7 @@
         <item>ASCII to Hex String</item>
         <item>Hex String to ASCII</item>
         <item>Clean string</item>
+        <item>To upper case</item>
+        <item>To lower case</item>
     </string-array>
 </resources>
